@@ -19,3 +19,19 @@
 - Yoga, Pilates, Stretching `P.S. My favorite asana is shavasana :)`
 
 -----------
+
+## CONTACTS:
+- *Email* >> [sheyko.mari@mail.ru](sheyko.mari@mail.ru)
+- *VK* >>  [planet_masha](https://vk.com/planet_masha)
+- *Telephone* >> +375 (44) 732-23-50
+
+-----------
+
+## CODE EXAMLES:
+### My Codewars Account  >> [MariDash](https://www.codewars.com/users/MariDash)
+``` 
+<script> 
+    let name = prompt('Enter your name :)');
+    alert(`Oh, you look amazing, ${name}!`);
+</script>
+```
