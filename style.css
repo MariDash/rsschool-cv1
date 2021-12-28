@@ -1,1 +1,11 @@
-Hello
+header {
+    background-color: blue;
+}
+
+main {
+    background-color: coral;
+}
+
+footer {
+    background-color: crimson;
+}
