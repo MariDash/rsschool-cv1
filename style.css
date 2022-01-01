@@ -1,11 +1,93 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1024px;
+    margin: auto;
+    border: #660000 solid 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: #660000;
+}
+
 header {
-    background-color: blue;
+}
+
+
+nav {
+    left: 0; 
+    right: 0;
+    top: 0;
+    
+}
+
+.header_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_menu_item {
+    padding: 20px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.header_menu_link {     
+    color: black;
+    text-decoration: none;
+
 }
 
 main {
-    background-color: coral;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.avatar {
+    border-radius: 0 50px;
+    width: 350px;
+    padding: 25px;
+}
+
+.contacts {
+    padding: 25px;
+    border-radius: 0 50px;
+    background-color: #FFCC99;
+}
+
+.education {
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px 0;
+    background-color: #FFFFCC;
+}
+
+.interests {
+    padding: 25px;
+    border-radius: 0 50px;
+    margin: 25px;
+    background-color: #FFCC99;
+}
+
+.code {
+        padding: 25px;
+        margin: 25px;
+        border-radius: 50px 0;
+        background-color: #FFFFCC;
+}
+
+h2 {
+    font-size: 25px;
 }
 
 footer {
-    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
 }
