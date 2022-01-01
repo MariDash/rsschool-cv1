@@ -1,11 +1,146 @@
-header {
-    background-color: blue;
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1024px;
+    margin: auto;
+    border: #660000 solid 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: #660000;
+}
+
+
+nav {
+    left: 0; 
+    right: 0;
+    top: 0;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_menu_item {
+    padding: 20px;
+    list-style-type: none;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.header_menu_link {     
+    color: #660000;
+    text-decoration: none;
+}
+
+.header_menu_item:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: #FFCC99;
+    border-radius: 0 25px;
 }
 
 main {
-    background-color: coral;
+    display: flex;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+h1 {
+    font-size: 55px;
+    padding: 25px;
+    text-align: right;
+}
+
+main li {
+    padding-bottom: 5px;
+}
+
+.avatar {
+    border-radius: 0 50px;
+    width: 450px;
+    padding: 0 25px;
+}
+
+.introducing  {
+    padding: 25px;
+    font-size: 25px;
+    width: 450px;
+}
+
+.contacts {
+    padding: 25px;
+    border-radius: 0 50px;
+    background-color: #FFCC99;
+}
+
+.contact_link, 
+.code_link, 
+.footer_link{
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(209, 113, 17)
+}
+
+.contact_link:hover, 
+.code_link:hover, 
+.footer_link:hover{
+    text-decoration: underline;
+}
+
+.contact_link:visited, 
+.code_link:visited, 
+.footer_link:visited {
+    color: rgb(0, 0, 0);
+}
+
+li {
+    font-size: 25px;
+}
+
+.education {
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px 0;
+    background-color: #FFFFCC;
+}
+
+.addition {
+    color: rgb(187, 113, 15);
+    padding-top: 15px;
+}
+
+.interests {
+    padding: 25px;
+    border-radius: 0 50px;
+    margin: 25px;
+    background-color: #FFCC99;
+}
+
+.code {
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px 0;
+    background-color: #FFFFCC;
+}
+
+.code_example {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.726);
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
 }
 
 footer {
-    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 25px;
 }
